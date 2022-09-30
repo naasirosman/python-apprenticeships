@@ -1,5 +1,8 @@
 
 
+from symbol import parameters
+
+
 def hello_world():
     return "Hello World!"
 # def indicates what is next is a function
@@ -118,6 +121,29 @@ print("d" in y)
 print("e" in y)
 del(y["d"])
 print("d" in y)
+
+
+
+# tuples - undeclarable
+
+t = 1, 2, 3 ,4
+print(t)
+
+# making a tuple
+empty=()
+print(empty)
+u = "hello",
+# requires , to make it tuple and not a variable
+print(len(empty))
+print(len(u))
+
+
+
+# functions
+
+def functionName(nameParameter, ageParameter):
+    return "hello " + nameParameter + "!", "You are " + ageParameter + " years old"
+print(functionName("Nasir", "18"))
 
 
 
